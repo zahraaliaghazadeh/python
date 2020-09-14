@@ -118,6 +118,25 @@ values = "".join(char if char not in separators else " " for char in number2).sp
 print([int(val) for val in values])
 
 
+# f string, just instead of using .format can use this
+name = "Tim"
+age_in_words = "2 years"
+print(name + f" is { age} years old")
+print(type(age))
+
+print ( f"Pi is approximately {22/7:12.50f}")
+pi = 22/7
+print ( f"Pi is approximately {pi:12.50f}")
+
+# string interpolation , like print f in C
+
+# quiz question
+print()
+days = "Mon, Tue, Wed, Thu, Fri, Sat, Sun"
+print (days[::5])  #MTWTFSS
+
+
+
 
 
 
