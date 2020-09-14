@@ -1,8 +1,8 @@
 name = input("Please enter your name: ")
-age = int(input("Please enter your age"))
+age = int(input("Please enter your age: "))
 if name != "":
     if 18 <= age <=30:
-        print("Welcome to the party")
+        print("Welcome to the party, {0}".format(name))
     else:
         print("Not for you!")
 else:
