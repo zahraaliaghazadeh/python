@@ -5,4 +5,4 @@ letter = input("Enter a character: ")
 if letter in parrot:
     print("{} is in {}".format(letter, parrot))
 else:
-    print("I dont need that letter")
+    print("I don't need that letter")
