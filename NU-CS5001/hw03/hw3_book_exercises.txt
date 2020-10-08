@@ -1,0 +1,62 @@
+1. What possible values can a Boolean expression have?
+ True or False
+
+2. Where does the term Boolean originate?
+ The term Boolean comes from the name of the British mathematician George Boole.
+
+3. What is an integer equivalent to True in Python?
+ equals to 1
+
+4. What is the integer equivalent to False in Python?
+equals to 0
+
+5. Is the value -16 interpreted as True or False?
+* True
+
+6. Given the following definitions:
+x, y, z = 3, 5, 7
+evaluate the following Boolean expressions:
+
+(a) x == 3               True
+(b) x < y                True
+(c) x >= y               False
+(d) x <= y               True
+(e) x != y -2            False
+(f) x < 10               True
+(g) x >= 0               True
+(h) x < 0 and x < 10     False
+(i) x >= 0 and x < 2     False
+(j) x < 0 or x < 10      True
+(k) x > 0 or x < 10      True
+(l) x < 0 or x > 10      False
+
+7. Given the following definitions:
+     x, y = 3, 5
+     b1, b2, b3, b4 = True, False, x == 3, y < 3
+evaluate the following Boolean expressions:
+(a) b3                                   1
+(b) b4                                   0
+(c) not b1                               0
+(d) not b2                               1                                       
+(e) not b3                               0
+(f) not b4                               1
+(g) b1 and b2                            0
+(h) b1 or b2                             1
+(i) b1 and b3                            1
+(j) b1 or b3                             1
+(k) b1 and b4                            0
+(l) b1 or b4                             1
+(m) b2 and b3                            0
+(n) b2 or b3                             1
+(o) b1 and b2 or b3                    * 1
+(p) b1 or b2 and b3                    * 1 
+(q) b1 and b2 and b3                     0
+(r) b1 or b2 or b3                       1
+(s) not b1 and b2 and b3                 0               
+(t) not b1 or b2 or b3                   1
+(u) not (b1 and b2 and b3)               1
+(v) not (b1 or b2 or b3)                 0
+(w) not b1 and not b2 and not b3         0
+(x) not b1 or not b2 or not b3           1
+(y) not (not b1 and not b2 and not b3)   1
+(z) not (not b1 or not b2 or not b3)     0
