@@ -1,0 +1,80 @@
+exercise 1 through 5 and 13
+
+1) In Listing 5.4 (addnonnegatives.py) could the condition of the if statement
+ have used > instead of >= and achieved the same results? Why?
+if you change the if statement to > 0, it will not change the outcome of the 
+program because the while loop is taking into consideration the input = 0 and it 
+will not end the loop when you enter 0. It will end it one a negative input is
+entered.
+When the user enters a negative value, the executing program will not update the sum variable,
+and the condition of the while will no longer be true. The loop then terminates and the program executes the print statement.
+
+2) In Listing 5.4 (addnonnegatives.py) could the condition of the while statement
+ have used > instead of >= and achieved the same results? Why?
+ It will give a sum of 0 becuase we assigned sum to be zero. and since the 
+ variable entry is assigned to 0 and then in the while loop we are comparing 
+ entry to see if it is greater than 0, it is false and it will not go inside the 
+ while loop. The initialization of entry to zero coupled with the condition 
+ entry >= 0 of the while guarantees that the program will execute the body of the while loop at least once. 
+
+
+ 3) In Listing 5.4 (addnonnegatives.py) what would happen if the statement entry = int(input()) 
+ # Get the value
+were moved out of the loop? Is moving the assignment out of the loop a good or bad thing to do? Why?
+
+when you bring the entry input out of the loop, and run the program, it keeps asking
+to enter an input and it will not execute the if statement or print the sum. 
+No it is not a good habit to move the assignment out because we need the entry to be checked 
+and added to the sum repeatedly. 
+
+
+4) How many asterisks does the following code fragment print?
+ 
+a=0
+while a < 100:
+             print('*', end='')
+a += 1 print()
+
+This will print 100 asterisks because the initial value of a is 0 and 
+we have a while loop up to but not equal to 100, and that is 100 elements.
+
+5)
+a= 0 and a<100 are two true statements forever so the while loop will go forever.
+the difference between the code in this question and question 4 is in the a += 1
+which is going to add 1 to the a and compare it to 100 to see if it is still less
+than 100 , and if it is to print a *, but in 5 this doesnt happen.
+
+
+13)
+range(5) 
+0 1 2 3 4
+
+range(5, 10)
+5 6 7 8 9
+
+range(5, 20, 3) 
+5 8 11 14 17
+
+range(20, 5, -1)
+20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 
+
+range(20, 5, -3)
+20 17 14 11 8 
+
+range(10, 5)
+10 9 8 7 6 
+
+range(0)
+null
+
+range(10, 101, 10)
+10 20 30 40 50 60 70 80 90 100
+
+range(10, -1, -1)
+10 9 8 7 6 5 4 3 2 1 0
+
+range(-3, 4)
+-3 -2 -1 0 1 2 3
+
+range(0, 10, 1)
+0 1 2 3 4 5 6 7 8 9

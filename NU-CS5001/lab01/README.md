@@ -1,7 +1,6 @@
-# Lab 04
+# Lab 01
 
-## This lab contains some interesting activities such as drawing a rectangle with a symbol , christmas tree with / and \  , magic square validator and finally program to draw a circle.
-
+## Introduction to Visual Code and Python
 
 
 ## Table of contents
@@ -18,23 +17,17 @@
 
 ## General Info
 
->  This lab contains some interesting activities such as drawing a rectangle with a symbol , christmas tree with / and \  , magic square validator and finally program to draw a circle.
+>  This assignment was to install visual code, Anacando and connect the repository of Northeastern University on github to the local repo.
 
 
 
-## Screenshots
-
-
-<img src="./assets/images/screenshot1.png" width="250px" height="360px"> <img src="./assets/images/screenshot2.png" width="250px" height="360px"> <img src="./assets/images/screenshot3.png" width="250px" height="360px"> <img src="./assets/images/screenshot4.png" width="250px" height="360px">
-
-<hr>
 
 ## Installation
 
 
 * [Visual Code](https://code.visualstudio.com/docs/setup/setup-overview)
 * [Git](https://git-scm.com/download/)
-
+* [Anaconda](https://www.anaconda.com/products/individual)
 
 To install any of the above , use the link for your device's operating system and then follow the right prompts to install. 
 
@@ -43,9 +36,6 @@ To install any of the above , use the link for your device's operating system an
 Then you would download the repository files. Then you would open terminal and type ```python3 filename``` . This will run Python on that file.
 
 
-#### additional links
-
-[Python Documents](https://docs.python.org/3/library/functions.html)
 
 
 
@@ -56,26 +46,6 @@ curriculum from [Northeastern University Khoury College of Computer Science](htt
 
 
 
-## Features
-
-List of features:
-
-* rectangle.py: This program takes a symbol and a height and width from the user and draws a rectangle with them.
-
-* christmas_tree: This program will take the height as an odd number from the user and it will draw a christmas tree with * , / , \ and _ .
-
-* magic_square_validator: This function will prompt the user to enter three 3 digit numbers and then it will check if the sum in all directios is 15.
-
-* circle.py: This program will prompt the user for the radius of the circle and it will draw a circle.
-
-
-
-To-do list: <br>
-polish the code.
- 
-
-## Status
-Project is:  _finished_
 
 #### Inspiration
 Python is one of the main languages used in software development.

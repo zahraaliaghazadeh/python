@@ -2,18 +2,19 @@ import math
 
 
 def main():
-    radius = int(input("Enter a positive value: "))
-    y = 0
-    x = 0
-    for i in range(1, 2 * radius): 
-        print("O" * 2 * radius)
-  
+    """
+    Gets a `radius` value from the user.
+    :return: a circle drawn with `O`
+    """
+    radius = int(input("Enter a value for radius: "))
+    for i in range(1, 2 * radius):
+        line = ""
+        for j in range(1, 2 * radius):
+            if (math.sqrt((radius - j)**2 + (radius-i)**2) > radius):
+                line += " "
+            else:
+                line += "o"
+        print(line)
 
 
 main()
-
-
-#   angle = float(input("Enter an angle: "))
-#     cos = math.cos(math.radians(angle))
-#     sin = math.sin(math.radians(angle))
-   

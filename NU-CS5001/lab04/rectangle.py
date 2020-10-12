@@ -1,9 +1,9 @@
 
 def height_input_validation(height):
     """
-
-    :param height:
-    :return:
+    This function is to make sure height is less than 2
+    :param height: user will input the height of rectangle
+    :return: while loop will return the valid height value
     """
     while (height <= 2):
         height = int(input("Your value is too small! Enter again: "))
@@ -12,9 +12,9 @@ def height_input_validation(height):
 
 def width_input_validation(width):
     """
-
-    :param width:
-    :return:
+    This function is to make sure width         is less than 2
+    :param width: user will enter a width for rectangle
+    :return: while loop will return the valid width
     """
     while (width <= 2):
         width = int(input("Your value is too small! Enter again: "))
@@ -23,6 +23,8 @@ def width_input_validation(width):
 
 def rectangle_drawer():
     """
+    This function gets a symbol, a height and a width from the user and
+    it will then draw a rectangle with the symbol.
 
     :return:
     """
@@ -44,6 +46,10 @@ def rectangle_drawer():
 
 
 def main():
+    """
+
+    :return: calling the rectangle_drawer function.
+    """
     rectangle_drawer()
 
 
