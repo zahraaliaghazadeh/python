@@ -62,7 +62,7 @@ range(20, 5, -3)
 20 17 14 11 8 
 
 range(10, 5)
-10 9 8 7 6 
+end > start so doesnt print anything
 
 range(0)
 null
